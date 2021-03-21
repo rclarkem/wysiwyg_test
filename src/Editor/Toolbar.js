@@ -1,3 +1,4 @@
+// Config options for toolbar in draftjs
 export const config = {
   options: ['inline', 'blockType', 'list'],
   inline: {
