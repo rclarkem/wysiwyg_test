@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.container {
+  width: 500px;
+  margin: auto;
+  min-width: 300px;
+  height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper-class {
+  padding: 25px;
+  background-color: gray;
+  border: 1px solid #ccc;
+  display: block;
+  white-space: nowrap;
+  margin: auto;
+  max-height: 500px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.editor-class {
+  background-color: lightgray;
+  padding: 1rem;
+  max-height: 300px;
+  border-radius: 5px;
+  overflow: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+div.toolbar-class {
+  padding: 6px 5px 0;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 5px;
+  border: 0px solid #f1f1f1;
+  display: flex;
+  background: white;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin-bottom: 5px;
+  background-color: gray;
 }
 
-.App-link {
-  color: #61dafb;
+div.inline-wrapper {
+  background-color: gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tool-button div,
+.drop-button a {
+  background-color: gray;
+}
+.tool-button div,
+.drop-button:first-child {
+  border: none;
 }
