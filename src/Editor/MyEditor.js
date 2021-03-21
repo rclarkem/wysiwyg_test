@@ -33,7 +33,6 @@ const MyEditor = (props) => {
   const classes = useStyles();
   const label = useRef();
   const text = JSON.stringify(convertToRaw(editorState.getCurrentContent()));
-  const onFocus = () => {};
 
   const saveContents = () => {
     localStorage.setItem('content', text);

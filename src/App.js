@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import MyEditor from './Editor/MyEditor';
-import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { getLabel, removeLabel } from './Editor/HelperFuncs';
 import { editConfig } from './Editor/Toolbar';
 

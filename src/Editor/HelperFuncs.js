@@ -2,7 +2,6 @@
 
 export const getLabel = (ref) => {
   const ts = ref.current.wrapper;
-  const class_name = ts.className;
   ts.classList.add('active');
 };
 
