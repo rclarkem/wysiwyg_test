@@ -1,5 +1,5 @@
 // Config options for toolbar in draftjs
-export const config = {
+export const editConfig = {
   options: ['inline', 'blockType', 'list'],
   inline: {
     inDropdown: false,
